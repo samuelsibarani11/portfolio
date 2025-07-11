@@ -1,69 +1,52 @@
-# React + TypeScript + Vite
+# 🚀 Samuel Albi Pulo S | Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Halo 👋, saya **Samuel Albi Pulo S**, mahasiswa Teknologi Informasi yang bersemangat membangun aplikasi bermanfaat dengan performa optimal, desain bersih, dan solusi nyata untuk masyarakat. Saya memiliki minat pada:
 
-Currently, two official plugins are available:
+✨ **Web Development** (React, Next.js, TailwindCSS, GSAP, Laravel, DLL)  
+✨ **Mobile Development** (React Native, Flutter)  
+✨ **Machine Learning & Computer Vision** (Python, TensorFlow, OpenCV, DLL)  
+✨ **Cybersecurity & Network Fundamentals**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend:** React, Next.js, TailwindCSS, GSAP, Framer Motion
+- **Mobile:** React Native, Expo, Flutter
+- **Backend:** Node.js, Express, FastAPI
+- **Machine Learning:** TensorFlow, Keras, Scikit-Learn
+- **Tools:** Git, Figma, Postman, Docker
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🎯 Highlights Project
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+✅ **SmileIn: Mobile Face Recognition Attendance App**  
+Menggunakan React Native + FastAPI untuk absensi berbasis deteksi wajah dan verifikasi senyuman.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+✅ **E-Voting Web App**  
+Sistem pemilu online dengan otentikasi aman dan dashboard admin realtime.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+✅ **Personal Portfolio Website**  
+Menggunakan React, Tailwind, GSAP untuk showcase clean, smooth, dan interaktif.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+✅ **ML Facial Expression Recognition**  
+Model CNN untuk klasifikasi senyuman mahasiswa berbasis dataset CelebA dan VGGFace2.
+
+---
+
+## 📩 Contact
+
+- **Email:** samuelalbi08@gmail.com
+- **LinkedIn:** [Samuel Albi Pulo S](https://www.linkedin.com/in/samuel-albi-pulo-s-084392272/)
+- **GitHub:** [@samuelalbi](https://github.com/samuelsibarani11)
+
+---
+
+## ⭐ Goals
+
+Saya ingin **terus berkembang dalam pengembangan software**, mengoptimasi performa aplikasi yang saya buat, dan membangun produk yang bermanfaat bagi masyarakat. Portfolio ini akan terus diupdate seiring proyek yang saya kembangkan.
+
+---
+
+> Terima kasih telah mengunjungi portfolio ini. Silakan ⭐ repo ini jika bermanfaat untukmu!
